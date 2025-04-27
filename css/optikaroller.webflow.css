@@ -694,7 +694,7 @@ figcaption {
 }
 
 .heading-style-h1 {
-  color: var(--_primitives---colors--white);
+  color: var(--color-scheme-1--text);
   font-size: 3.5rem;
   font-weight: 700;
   line-height: 1.2;
@@ -5461,6 +5461,10 @@ figcaption {
     grid-column-gap: 3rem;
     grid-row-gap: 4rem;
   }
+
+  .header103_tab-image-2 {
+    object-position: 65% 50%;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6100,6 +6104,10 @@ figcaption {
   .career16_list {
     grid-row-gap: 1.5rem;
   }
+
+  .header103_tab-image-2 {
+    object-position: 40% 50%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -6318,6 +6326,10 @@ figcaption {
 
   .career16_item {
     overflow: auto;
+  }
+
+  .header103_tab-image-2 {
+    object-position: 50% 50%;
   }
 }
 
