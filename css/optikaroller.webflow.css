@@ -24,6 +24,7 @@
   --base-color-neutral--black\<deleted\|relume-variable-color-neutral-1\>: black;
   --base-color-neutral--white\<deleted\|relume-variable-color-neutral-2\>: white;
   --_primitives---colors--neutral-darker: #222;
+  --5-rem: .5rem;
   --green-dark: #027a48;
   --_ui-styles---stroke--divider-width: 1px;
   --dark-red: #e23939;
@@ -2189,8 +2190,8 @@ figcaption {
 
 .layout507_image {
   aspect-ratio: 1;
+  border-radius: var(--5-rem);
   object-fit: cover;
-  border-radius: 1rem;
   width: 100%;
   height: 100%;
 }
